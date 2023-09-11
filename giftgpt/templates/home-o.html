@@ -1,0 +1,30 @@
+<h1>GiftGPT</h1>
+<p>Get the perfect gift for your significant other</p>
+<form action="/gift" method="post">
+  {% csrf_token %}
+  Name: <input type="text" name="name" value="">
+  <label for="trela">Type of relationship:</label>
+  <select name="trela" id="trela">
+   <option value="girlfriend">girlfriend</option>
+   <option value="boyfriend">boyfriend</option>
+   <option value="friend">friend</option>
+   <option value="brother">brother</option>
+   <option value="sister">sister</option>
+   <option value="mother">mother</option>
+   <option value="father">father</option>
+   <option value="grandfather">grandfather</option>
+   <option value="grandmother">grandmother</option>
+   <option value="other">other</option>
+  </select>
+  <label for="precio">Price:</label>
+  <select name="precio" id="precio">
+   <option value="0"><25$</option>
+   <!-- <option value="1"><50$</option>
+   <option value="2"><100$</option> -->
+  </select>
+  Age: <input type="number" name="age" value="">
+  Intrests: <input type="text" name="intrests" value="">
+  How you met: <input type="text" name="story" value="">
+  How is the relationship now: <input type="text" name="status" value="">
+  <input type="submit" name="" value="Submit">
+</form>
