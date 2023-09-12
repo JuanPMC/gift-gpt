@@ -31,7 +31,7 @@ How the relationship is now: {}""".format(name,relationship_type,age,intrests,st
 
     def apiGPT(self,inputText):
         openai.organization = "org-tl9ABVBxqV5cH1ReIQwL0hBR"
-        openai.api_key="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"
+        openai.api_key=os_getenv("GPT_API_KEY", "PLACEHOLDER-KEY")
         response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
