@@ -1,4 +1,5 @@
 import openai
+from os import getenv as os_getenv
 
 class GiftAI(object):
     """Interfaciong with chatGPT to generate the gift selection"""
