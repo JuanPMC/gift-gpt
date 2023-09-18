@@ -14,3 +14,7 @@ def gift(request):
         return render(request,'gift.html', {
             'respuesta': respuesta
         })
+def blog_top(request):
+    return render(request,"blog-top.html")
+def blog_step(request):
+    return render(request,"blog-step.html")
