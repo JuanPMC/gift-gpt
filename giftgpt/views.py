@@ -15,6 +15,6 @@ def gift(request):
             'respuesta': respuesta
         })
 def blog_top(request):
-    return render(request,"blog-top.html")
+    return render(request,"blog-top10.html")
 def blog_step(request):
     return render(request,"blog-step.html")
