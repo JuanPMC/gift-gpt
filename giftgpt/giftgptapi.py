@@ -59,7 +59,7 @@ id=10 product="{}"
 
 Respond only with a number as the fist character of your response ONLY awser ONE gitft:
 <id>
-<justification  100 words>
+<justification  50 words>
 
 Information about the person:
 {}
