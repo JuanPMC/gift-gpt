@@ -69,6 +69,11 @@
 
 })(jQuery);
 
+function preventBack() {
+   location.replace("/");
+}
+
+
 function changeMultipleCSS() {
   // Defining all our CSS styles
   const myStylesLOADING = `
@@ -95,4 +100,6 @@ function changeMultipleCSS() {
 
   formulario.style.cssText = myStylesHIDE;
   loading.style.cssText = myStylesLOADING;
+
+  setTimeout("preventBack()", 8000);
 }
