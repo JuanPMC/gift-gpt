@@ -525,7 +525,11 @@ input {
   -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
-  display: block;
+  /* display: block; */
+}
+
+.card-3-table {
+  display: table;
 }
 
 .card-3 .card-heading {
@@ -534,13 +538,20 @@ input {
   width: 50%;
 }
 
+.card-3-table-body {
+  display: table-cell;
+}
+
 .card-3 .card-body {
   padding: 57px 65px;
   padding-bottom: 65px;
 }
 
 @media (max-width: 767px) {
-  .card-3 {
+  /* .card-3 {
+    display: block;
+  } */
+  .card-3-table .card-3-table-body {
     display: block;
   }
   .card-3 .card-heading {
