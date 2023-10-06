@@ -49,7 +49,7 @@ How the relationship is now: {}""".format(name,relationship_type,age,intrests,st
 
     def consultarCorto(self,description_text):
         promptText="""
-Give me a list of 3 alternative presents that whould fit this person:
+Give me a list of 3 alternative SPECIFIC presents that whould fit this person:
 
 Information about the person:
 {}
