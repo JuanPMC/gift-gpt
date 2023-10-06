@@ -525,7 +525,7 @@ input {
   -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
-  display: table;
+  display: block;
 }
 
 .card-3 .card-heading {
@@ -537,7 +537,6 @@ input {
 .card-3 .card-body {
   padding: 57px 65px;
   padding-bottom: 65px;
-  display: table-cell;
 }
 
 @media (max-width: 767px) {
@@ -578,4 +577,57 @@ div.container:hover {
 
 .justificacion{
   color: white;
+}
+
+/* =========================================================================
+Search Card
+========================================================================= */
+.blog_post {
+  background: #fff;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+
+.container_copy {
+  padding: 6rem 4rem 5rem 4rem;
+}
+
+container_copy:h3 {
+  margin: 0 0 0.5rem 0;
+  color: #999;
+  font-size: 1.25rem;
+}
+
+.container_copy > h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.container_copy > p {
+  margin: 0 0 4.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.45;
+  color: #333;
+}
+
+.container_copy > .btn_primary {
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 1px 10px 2rem rgba(255, 94, 98, 0.5);
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
+.container_copy > .btn_primary:hover {
+  box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
 }
